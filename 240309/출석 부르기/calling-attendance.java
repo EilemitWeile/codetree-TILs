@@ -10,7 +10,7 @@ public class Main {
         System.out.printf("Tom\n");
        }
        else if(number==3){
-        System.out.printf("paul\n");
+        System.out.printf("Paul\n");
        }
        else{
         System.out.printf("Vacancy\n");
