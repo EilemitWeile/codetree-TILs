@@ -21,7 +21,7 @@ public class Main {
             System.out.printf("%d",c);
         }
        } 
-       if(c>=a && c>=a){
+       if(c>=a && c>=b){
         if(a>=b){
             System.out.printf("%d",a);
         }
