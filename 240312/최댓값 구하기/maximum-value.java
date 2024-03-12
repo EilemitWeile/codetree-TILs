@@ -5,10 +5,10 @@ public class Main {
        int a=sc.nextInt();
        int b=sc.nextInt();
        int c=sc.nextInt();
-       if(a>b && a>c){
+       if(a>=b && a>=c){
         System.out.printf("%d",a);
        }
-       else if(b>a && b>c){
+       else if(b>=a && b>=c){
         System.out.printf("%d",b);
        }
        else{
