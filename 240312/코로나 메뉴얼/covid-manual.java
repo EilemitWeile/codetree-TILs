@@ -16,7 +16,6 @@ public class Main {
             System.out.printf("N");
         }
        }
-       if(c1=='N'){
         if((c2=='Y' && f2>=37) && (c3=='Y' && f3>=37)){
             System.out.printf("E");
         }
@@ -24,5 +23,4 @@ public class Main {
             System.out.printf("N");
         } // 여기에 코드를 작성해주세요.
     }
-}
 }
