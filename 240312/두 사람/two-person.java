@@ -6,7 +6,7 @@ public class Main {
        char a_sex=sc.next().charAt(0);
        int b_old=sc.nextInt();
        char b_sex=sc.next().charAt(0);
-       if(((a_old >=19) || (b_old>=19))&&((a_sex=='M') || (b_sex=='M'))){
+       if(((a_old >=19) && (a_sex=='M')) || ((b_old>=19) && (b_sex=='M'))){
         System.out.printf("1\n");
        }
        else{
