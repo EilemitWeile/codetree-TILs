@@ -16,7 +16,7 @@ public class Main {
             System.out.printf("N");
         }
        }
-       if(c1=='N' && f1<=37){
+       if(c1=='N'){
         if((c2=='Y' && f2>=37) && (c3=='Y' && f3>=37)){
             System.out.printf("E");
         }
