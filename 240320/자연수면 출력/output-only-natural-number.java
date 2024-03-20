@@ -9,6 +9,9 @@ public class Main {
             System.out.printf("%d",a);
         }
        }
+       else{
+        System.out.printf("0");
+       }
         // 여기에 코드를 작성해주세요.
     }
 }
