@@ -5,11 +5,10 @@ public class Main {
        int cnt=0;
        while(true){
        int n=sc.nextInt();
-       if(n%2==1){
-        cnt++;
+       if(n%2==1){ //홀수
         continue;
        }
-       else{
+       else{ //짝수
         System.out.printf("%d\n", n/2);
         cnt++;
        }
