@@ -7,13 +7,14 @@ int main() {
     scanf("%d", &n);
     
     while(1){
-        if(n%2==0){
-            n=n/2;
+
+        if(n%2==1){
+            n=1+3*n;
             cnt++;
             //continue;
         }
         else{
-            n=1+3*n;
+            n=n/2;
             cnt++;
             //continue;
         }
