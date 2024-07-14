@@ -12,7 +12,7 @@ int main() {
             satisfied = false;//n이 소수가 아니다.
         }
     }
-    if(satisfied = true){
+    if(satisfied == true){
         printf("P\n");
     }
     else{
