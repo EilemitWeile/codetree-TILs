@@ -5,18 +5,18 @@ int main() {
     int a,b,c;
     scanf("%d %d %d", &a,&b,&c);
 
-    bool satisfied = true;//배수있음
+    bool satisfied = true;//배수 없는가? -ㅇㅇ
 
     for(int i=a; i<=b; i++){
-        if(c%i!=0){//배수 없음
+        if(i%c==0){//배수 있음
             satisfied = false;
         }
     }
     if(satisfied == true){
-        printf("NO\n");
+        printf("YES\n");
     }
     else{
-        printf("YES\n");
+        printf("NO\n");
     }
     // 여기에 코드를 작성해주세요.
     return 0;
