@@ -4,13 +4,14 @@
 int main() {
     int arr[5];
     int a=0;
+
     for(int i=0; i<5; i++){
         scanf("%d\n",&arr[i]);
     }
 
     bool satisfied = true;//모두 3의 배수
 
-    for(int i=arr[a]; a<=4; a++){
+    for(int i=arr[a]; a<5; a++){
         if(i%3!=0){
             satisfied = false;//모두 3의 배수 아님
         }
