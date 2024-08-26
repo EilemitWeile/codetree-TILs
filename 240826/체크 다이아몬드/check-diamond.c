@@ -8,31 +8,21 @@ int main() {
         for(int j=0; j<n-i-1; j++){
             printf(" ");
         }
-        for(int j=0; j<2*i+1; j++){
-            if(j%2==0){
-                printf("*");
-            }
-            else{
-                printf(" ");
-            }
+        for(int j=0; j<i+1; j++){
+            printf("* ");
         }
         
         printf("\n");
     }
     
       for (int i = n - 2; i >= 0; i--) {
-        // 공백 출력
-        for (int j = 0; j < n - i - 1; j++) {
+        for(int j = 0; j < n - i - 1; j++) {
             printf(" ");
         }
-        // 별 출력
-        for (int j = 0; j < 2 * i + 1; j++) {
-            if (j % 2 == 0) {
-                printf("*");
-            } else {
-                printf(" ");
-            }
+        for(int j=0; j<i+1; j++){
+            printf("* ");
         }
+        
         printf("\n");
     }
     // 여기에 코드를 작성해주세요.
