@@ -11,7 +11,7 @@ int main() {
                     printf("* ");
                 }
                 else{
-                    printf(" ");
+                    printf("  ");
                 }
             }
             else{
@@ -19,7 +19,7 @@ int main() {
                     printf("* ");
                 }
                 else{
-                    printf(" ");
+                    printf("  ");
                 }
             }
         }
