@@ -6,7 +6,7 @@ int main() {
 
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
-            printf("%d ",(2*i)+(2*j)+11);
+            printf("%d ",(2*i)+(2*j)+11);//i,j열 한 칸 이동시마다 +2
         }
         printf("\n");
     }
