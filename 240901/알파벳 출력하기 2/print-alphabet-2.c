@@ -13,7 +13,7 @@ int main() {
             else{
                 printf("%c ",cnt);
                 cnt++;
-                if(cnt>='Z'){
+                if(cnt>'Z'){
                     cnt='A';
                 }
             }
