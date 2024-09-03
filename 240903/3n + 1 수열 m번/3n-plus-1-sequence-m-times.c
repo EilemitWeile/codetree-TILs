@@ -3,12 +3,14 @@
 int main() {
     int m;
     scanf("%d\n",&m);
-    int cnt=0;
-    for(int i=0; i<m; i++){
-        int n;
-        
-        scanf("%d\n",&n);
+    
 
+    for(int i=0; i<m; i++){
+
+        int n;
+        scanf("%d\n",&n);
+        int cnt=0;
+        
         while(n!=1){
             if(n%2==0){
                 n/=2;
