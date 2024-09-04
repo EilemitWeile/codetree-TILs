@@ -15,7 +15,7 @@ int main() {
         avg=(double)sum/condition;
 
     }
-    printf("%d %.1f",sum,avg);
+    printf("%d %.1lf",sum,avg);
     // 여기에 코드를 작성해주세요.
     return 0;
 }
