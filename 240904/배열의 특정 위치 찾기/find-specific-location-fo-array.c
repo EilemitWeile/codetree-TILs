@@ -8,17 +8,31 @@ int main() {
 
     for(int i=0; i<10; i++){
         scanf("%d",&wholeN[i]);
-        if(i%2!=0){
+        if((i+1)%2==0){
             even_sum+=wholeN[i];
         }
+        /*
         if(i==0||i==1){
             continue;
         }
+        
         else if(i%2==0){
             answer_sum+=wholeN[i];
             answer_cnt++;
         }
+        */
+        if((i+1)%3==0){
+            answer_sum+=wholeN[i];
+            answer_cnt++;
+        }
+        
     }
+    /*
+    for(int i=0; i<10; i+3){
+        answer_sum+=wholeN[i];
+        answer_cnt++;
+    }
+    */
 
     double answer_avg=(double)answer_sum/answer_cnt;
 
