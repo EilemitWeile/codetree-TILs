@@ -11,7 +11,7 @@ int main() {
     }
     */
 
-    while(a>=1){
+    while(a>1){
         int remainder=a%b;
         a=a/b;
         for(int i=0; i<b; i++){
