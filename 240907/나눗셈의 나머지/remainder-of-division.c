@@ -12,14 +12,17 @@ int main() {
     */
 
     while(a>1){
-        int remainder=a%b;
+        //int remainder=a%b;
+        remainder_cnt[a%b]++;
         a/=b;
+
+        /*
         for(int i=0; i<b; i++){
             if(i==remainder){
                 remainder_cnt[i]++;
             }
         }
-        /*
+        
         if(a<=1){
             break;
         }
