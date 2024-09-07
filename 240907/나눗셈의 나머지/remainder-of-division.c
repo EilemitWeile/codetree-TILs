@@ -13,7 +13,7 @@ int main() {
 
     while(a>1){
         int remainder=a%b;
-        a=a/b;
+        a/=b;
         for(int i=0; i<b; i++){
             if(i==remainder){
                 remainder_cnt[i]++;
