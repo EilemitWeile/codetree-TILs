@@ -2,12 +2,12 @@
 
 int main() {
     char word[6]={'L','E','B','R','O','S'};
-    char c;
-    scanf("%c",&c);
+    char ans;
+    scanf("%c",&ans);
     int idx=-1;
 
     for(int i=0; i<6; i++){
-        if(word[i]==c){
+        if(word[i]==ans){
             idx=i;
         }
     }
