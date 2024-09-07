@@ -10,7 +10,7 @@ void q_2(int arr[], int n, int b){
             printf("%d\n",i+1);
             break;
         }
-        else if(i==n){
+        else if(i==n-1){
             printf("0\n");
             break;
         }
