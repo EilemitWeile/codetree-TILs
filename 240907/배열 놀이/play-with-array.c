@@ -8,16 +8,17 @@ void q_2(int arr[], int n, int b){
     for(int i=0; i<n; i++){
         if(arr[i]==b){
             printf("%d\n",i+1);
-            break;
+            return;
+            //break;
         }
+        /*
         else if(i==n-1){
             printf("0\n");
             break;
         }
-        else{
-            continue;
-        }
+        */
     }
+    printf("0\n");
 }
 
 void q_3(int arr[], int s,int e){
