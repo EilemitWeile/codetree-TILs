@@ -1,11 +1,10 @@
 #include <stdio.h>
-
+#include <limits.h>
 int main() {
-    int min_val=0;
-    int max_val=0;
+    int min_val=INT_MAX;
+    int max_val=INT_MIN;
     int arr[100]={0,};
-    min_val=arr[0];
-    max_val=arr[0];
+    
     for(int i=0; i<100; i++){
         scanf("%d ",&arr[i]);
         
