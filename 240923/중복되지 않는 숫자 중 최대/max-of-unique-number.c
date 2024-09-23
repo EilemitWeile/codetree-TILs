@@ -14,7 +14,7 @@ int main() {
             if(arr[i]==arr[j]){
                 break;
             }
-            else{
+            else if (arr[i]>=arr[j]){
                 MAX=arr[i];
             }
         }
