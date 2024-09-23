@@ -15,7 +15,10 @@ int main() {
                 break;
             }
             else if(arr[i]>arr[j]){
-                if(MAX<arr[i]){
+                if(MAX==arr[i]){
+                    MAX=-1;
+                }
+                else if(arr[i]>MAX){
                     MAX=arr[i];
                 }
             }
