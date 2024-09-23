@@ -14,9 +14,10 @@ int main() {
             if(arr[i]==arr[j]){
                 break;
             }
-            else if (arr[i]>=arr[j]){
+            else if(arr[i]>=arr[j]){
                 MAX=arr[i];
             }
+            else break;
         }
     }
     printf("%d",MAX);
